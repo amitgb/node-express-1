@@ -6,7 +6,7 @@ exports.getProducts = async (req,res,next) =>{
         try{
             const products = await Product.find(); // Get all documents from the database
             res.status(200).json({
-                msg: "All documents fetched successfully",
+                msg: "All documents fetched successfully on 8th Jan",
                 data: products
             })
         } catch (err){
